@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danishlaptop.test.CategoryActivity"
+    android:background="@drawable/gradientback"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your category "
+        />
+
+    <Button
+        android:id="@+id/HWBtn"
+        android:layout_width="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyling"
+        android:text="Hollywood >"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+
+        />
+    <Button
+        android:id="@+id/BWBtn"
+        android:layout_width="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyling"
+        android:text="Bollywood >"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+
+        />
+    <Button
+        android:id="@+id/LWBtn"
+        android:layout_width="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyling"
+        android:text="lollywood >"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+
+        />
+
+</LinearLayout>

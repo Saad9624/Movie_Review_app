@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c4c4c4"
+    tools:context="com.example.danishlaptop.test.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/cinemback"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/T1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:background="#00000000"
+            android:fontFamily="sans-serif"
+            android:fontFeatureSettings="bold"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:text="LOGIN"
+            android:textColor="#fff"
+            android:textSize="30dp"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#00000000"
+            android:fontFamily="cursive"
+            android:fontFeatureSettings="bold"
+            android:gravity="center"
+            android:text="-----to-----"
+            android:textColor="#fff"
+            android:textSize="10dp"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#00000000"
+            android:fontFamily="cursive"
+            android:fontFeatureSettings="bold"
+            android:gravity="center"
+            android:text="Your Account"
+            android:textColor="#fff"
+            android:textSize="17dp"
+
+
+            />
+    </LinearLayout>
+
+
+    <EditText
+        android:drawableRight="@drawable/ic_action_name1"
+        android:id="@+id/EmailText"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#919191"
+        android:fontFamily="italic"
+        android:hint="Email"
+        android:paddingLeft="5dp"
+        android:textSize="15dp"
+        android:background="#fff"
+android:textColor="#000000"
+        />
+
+
+    <EditText
+        android:drawableRight="@drawable/ic_action_pass"
+        android:id="@+id/PassText"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:layout_margin="10dp"
+
+        android:password="true"
+        android:hint="Password"
+        android:textColorHint="#919191"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="#fff"
+        android:textColor="#000000"
+        android:textSize="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/LogBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/buttonstyling"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/SignupBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonstyling"
+        android:text="SignUP"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

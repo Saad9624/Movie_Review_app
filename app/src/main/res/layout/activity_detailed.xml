@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/gradientback"
+    tools:context="com.example.danishlaptop.test.DetailedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/YoutubePlayer"
+            ></com.google.android.youtube.player.YouTubePlayerView>
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/MovieImageDetailed"
+            android:layout_width="1200dp"
+            android:layout_height="300dp"
+            android:src="@drawable/ic_icon_add"
+
+            />
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/MovieTitleDetailed"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie Name"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            />
+        <TextView
+            android:layout_marginLeft="5dp"
+
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/MovieDescriptionDetailed"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Movie"
+            android:textColor="#ffffff"
+            />
+
+
+
+<LinearLayout
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+<TextView
+    android:id="@+id/RatingText"
+    android:text="Rating of User "
+    android:textStyle="bold"
+    android:textSize="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"  />
+
+    <Button
+        android:id="@+id/RatingBarText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate Us"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:paddingTop="5dp"
+        android:gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/PlayBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Trailer"
+            android:background="#00000000"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+
+<LinearLayout
+    android:layout_margin="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/CommentSubEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Add a public Comment..."/>
+
+
+    <Button
+        android:id="@+id/CommentSubBtn"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="60dp"
+
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonstyling"
+        android:text="Done  >"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+
+        />
+
+</LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_margin="10dp"
+            android:id="@+id/RecyclerForComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+

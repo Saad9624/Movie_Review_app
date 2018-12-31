@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/gradientback"
+    android:id="@+id/ItemLayout"
+    android:layout_marginBottom="5dp"
+
+    >
+
+
+    <ImageView
+
+        android:layout_margin="10dp"
+        android:id="@+id/MovieImage"
+        android:layout_width="130dp"
+        android:layout_height="230dp"
+        android:src="@drawable/ic_icon_add"
+        android:layout_gravity="center_vertical"
+        />
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/MovieTitle"
+            android:textSize="20dp"
+          android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Title"/>
+
+
+        <TextView
+            android:id="@+id/MovieDescription"
+            android:textSize="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#fff"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie Description"/>
+
+        <RatingBar
+            style = "?android:attr/ratingBarStyleSmall"
+            android:id="@+id/RatingBar"
+            android:layout_margin="5dp"
+            android:stepSize=".5"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/RatingText"
+            android:textSize="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:text="Ratings"/>
+
+        <Button
+            android:id="@+id/MovieTrailer"
+            android:textSize="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="#00000000"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="show Trailer"/>
+
+
+
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/ReadMoreBtn"
+            android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:background="#00000000"
+    android:text="Read More>"
+    android:layout_marginLeft="100dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
